@@ -1,0 +1,174 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	 background-image: url("../Images/Map.jpg") ;
+	background-size: cover;
+	background-attachment: fixed;
+    background-color: black;
+}
+
+.navigation{
+	background-color: #210120;
+	text-align: center;
+}
+
+.tabs{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+
+.tabs-tab{
+	width: 200px;
+	margin: 15px;
+    padding: 15px;
+}
+
+.tabs-tab a{
+	text-decoration: none;
+	color: white;
+}
+
+#active,.tabs-tab:hover{
+    background-color: #91308E;
+    border-radius: 3px;
+}
+
+.sub-menu{
+	display: none;
+}
+
+.tabs-tab:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background-color: #210120;
+	margin-left: -15px;
+	margin-top: 15px;
+}
+
+.tabs-tab:hover .sub-menu .tabs{
+	display: block;
+	margin: 10px;
+}
+
+.tabs-tab:hover .sub-menu .tabs .tabs-tab{
+	width: 200px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0px;
+	text-align: left;
+}
+
+.tabs-tab:hover .sub-menu .tabs .tabs-tab a:hover{
+    color: #91308E;
+}
+
+.fa-angle-right{
+	float: right;
+}
+
+.sub-menu-2{
+	display: none;
+}
+
+.sub-menu .tabs .tabs-tab:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 200px;
+    background-color: #210120;
+}
+
+#click{
+	color: #DE421B;
+	font-family: 'Uncial Antiqua', cursive; 
+}
+
+#heading{
+	font-family: 'Uncial Antiqua', cursive;
+	text-align: center;
+	font-size: 50px;
+    padding: 10px;
+    width: 50%;
+    margin: 10px auto;
+    color: #008b8b;
+}
+
+#information{
+	font-family: 'Open Sans', sans-serif;
+	padding: 40px;
+    border: 2px solid grey;
+    margin: 80px auto;
+    width: 50%;
+    background-color: #E2CECE;
+}
+
+#Books{
+	display: flex;
+	flex-flow: row;
+	margin-bottom: 80px;
+}
+
+#Books img{
+	display: block;
+	max-width: 300px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;  THIS IS IMP
+    max-width: 300px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #C030DD;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+	display: block;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.733);
+	text-align: center;
+	height: 180px;
+}
+
+.bottom-title{
+	padding: 10px 0px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	color: white;
+}
+
+.social-media-links{
+	padding: 0px;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px auto;
+	justify-content: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.sv{
+	width: 45px;
+	height: 45px;
+	margin: auto 10px;
+}
+
