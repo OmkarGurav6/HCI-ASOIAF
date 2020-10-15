@@ -1,0 +1,35 @@
+
+body{
+	background-color: aliceblue;
+	margin-top: 100px;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+form{
+	padding: 10px;
+	border: solid 5px #91308E;
+	margin: auto ;
+	font-size: 20px;
+	width: 40%;
+}
+
+table{
+	padding: 10px;
+	margin: auto;
+}
+
+td{
+	padding: 10px;
+}
+
+.danger{
+	color: red;
+	font-weight: bold;
+}
+
+
