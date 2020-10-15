@@ -1,0 +1,118 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: aliceblue;
+	margin-top: 100px;
+}
+
+.navigation{
+	position: fixed;
+	top: 0px;
+	background-color: #210120;
+	text-align: center;
+	width: 100%;
+}
+
+.tabs{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+
+.tabs-tab{
+	width: 200px;
+	margin: 25px;
+    padding: 15px;
+}
+
+.tabs-tab a{
+	text-decoration: none;
+	color: white;
+}
+
+#active,.tabs-tab:hover{
+    background-color: #91308E;
+    border-radius: 15px;
+}
+
+.sub-menu{
+	display: none;
+}
+
+.tabs-tab:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background-color: #210120;
+	margin-left: -15px;
+	margin-top: 15px;
+}
+
+.tabs-tab:hover .sub-menu .tabs{
+	display: block;
+	margin: 10px;
+}
+
+.tabs-tab:hover .sub-menu .tabs .tabs-tab{
+	width: 200px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0px;
+	text-align: left;
+}
+
+.tabs-tab:hover .sub-menu .tabs .tabs-tab a:hover{
+    color: #91308E;
+}
+
+.fa-angle-right{
+	float: right;
+}
+
+.sub-menu-2{
+	display: none;
+}
+
+.sub-menu .tabs .tabs-tab:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 200px;
+    background-color: #210120;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+form{
+	padding: 10px;
+	border: solid 5px #91308E;
+	margin: auto ;
+	margin-top: 200px;
+	font-size: 20px;
+	width: 40%;
+}
+
+table{
+	padding: 10px;
+	margin: auto;
+}
+
+td{
+	padding: 10px;
+}
+
+.danger{
+	color: red;
+	font-weight: bold;
+}
+
+
